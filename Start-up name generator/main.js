@@ -10,12 +10,14 @@ let randomFirstWord = firstWords[randomIndex1]
 
 console.log(`Random word from firstWords: ${randomFirstWord}`)
 
+
 //Create a randomizer for the second array
 let randomIndex2 = Math.floor(Math.random() * secondWords.length);
 
 let randomSecondWords = secondWords[randomIndex2]
 
 console.log(`Random word from secondWords: ${randomSecondWords}`)
+
 
 //Now we combine it so it creates a random name for our startup company
 let startUpCompanyName = `${randomFirstWord} ${randomSecondWords}`
